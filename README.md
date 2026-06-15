@@ -78,7 +78,7 @@ OPENAI_API_KEY=your_api_key_here
 
 5. Run the program
 
-python main.py
+python3 main.py
 
 ## Learning Objectives
 
