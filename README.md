@@ -62,7 +62,7 @@ Explanation:
 
 1. Clone the repository
 
-git clone https://github.com/yourusername/hangul-ai-agent.git
+git clone [https://github.com/yourusername/hangul-ai-agent.git](https://github.com/nekelmitchell/hangul_ai_agent.git)
 
 2. Navigate into the project folder
 
