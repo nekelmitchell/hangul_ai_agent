@@ -19,15 +19,15 @@ This project was built to explore AI-agent concepts such as memory systems, retr
 ## AI-Agent Architecture
 
 User Input
-↓
+->
 Memory Retrieval
-↓
+->
 Prompt Construction
-↓
+->
 LLM Reasoning
-↓
+->
 Personalized Response
-↓
+->
 Memory Update
 
 ## Technologies Used
