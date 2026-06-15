@@ -4,6 +4,10 @@ from tutor import (
     quiz_user
 )
 
+from quiz import (
+    conversation_practice
+)
+
 # Import conversational system
 from conversation import chat
 
@@ -17,9 +21,10 @@ while True:
 
     # Menu options
     print("\n1. Start Lesson")
-    print("2. Quiz")
+    print("2. Vowel/Constant Quiz")
     print("3. Chat With Tutor")
-    print("4. Exit")
+    print("4. Basic Conversations")
+    print("5. Exit")
 
     # User choice
     choice = input("\nChoose: ")
@@ -38,9 +43,14 @@ while True:
     elif choice == "3":
 
         chat()
+    
+    # Start Conversation
+    elif choice == "4":
+
+        conversation_practice()
 
     # Exit program
-    elif choice == "4":
+    elif choice == "5":
 
         print("\nGoodbye!")
 

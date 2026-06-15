@@ -3,13 +3,17 @@
         "Adaptive Hangul Review"
     ],
     "mistakes": [
+        "\u314c",
+        "\u314c",
         "\u314c"
     ],
-    "bad_habits": [],
+    "bad_habits": [
+        "\u314c"
+    ],
     "weak_letters": [
         "\u314c"
     ],
     "mistake_counts": {
-        "\u314c": 1
+        "\u314c": 3
     }
 }

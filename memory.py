@@ -4,6 +4,13 @@ import os
 # Memory storage file
 MEMORY_FILE = "student_memory.json"
 
+def add_conversation_mistake(prompt):
+
+    memory = load_memory()
+
+    memory["conversation_mistakes"].append(prompt)
+
+    save_memory(memory)
 
 # Load memory
 def load_memory():
